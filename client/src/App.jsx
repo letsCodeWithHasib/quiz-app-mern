@@ -1,7 +1,11 @@
-import React from "react";
+import Signup from "./pages/Signup";
 
 const App = () => {
-  return <div className="text-red-500">App</div>;
+  return (
+    <div>
+      <Signup />
+    </div>
+  );
 };
 
 export default App;
